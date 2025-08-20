@@ -51,7 +51,7 @@ EMAIL_SMTP_PORT = 465
 
 # -- Configuración del Script --
 INTERVALO_SEGUNDOS = 300
-HEADLESS_MODE = True  # Cambiar a False para ver el navegador en acción
+HEADLESS_MODE = False  # Cambiar a False para ver el navegador en acción
 
 # ==============================================================================
 # --- FIN DE LA CONFIGURACIÓN ---
@@ -270,6 +270,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
