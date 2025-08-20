@@ -38,7 +38,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 ORIGEN = "Linares-Baeza"
 DESTINO = "Madrid"
 # Formato: "DD/MM/AAAA"
-FECHA_IDA = "17/08/2025"
+FECHA_IDA = "21/08/2025"
 # Formato: "HH:MM"
 HORA_SALIDA_TREN = "09:13"
 
@@ -270,5 +270,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
